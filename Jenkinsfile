@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo *********** BUILDING SUCCESS FROM GITHUB***********'
+                sh 'echo "Edited BUILDING SUCCESS FROM GITHUB"'
             }
         }
     }
